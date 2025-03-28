@@ -1,15 +1,14 @@
 import "./App.css";
 import BannerPoint from "./Component/BannerPoint";
 import NavBanner from "./Component/NavBanner";
-import Table from "./Component/Table";
-
+import AboutUs from "./Component/AboutUs";
 
 function App() {
   return (
     <div className="App">
       <NavBanner />
       <BannerPoint />
-      < Table/>
+      <AboutUs />
     </div>
   );
 }

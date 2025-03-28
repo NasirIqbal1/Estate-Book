@@ -13,6 +13,10 @@ const BannerPoint = () => {
             eiusmod <br />
             tempor incididunt ut labore et dolore magna aliqua.
           </p>
+
+          <button className="button-sumbit" type="submit" value="Submit">
+            Explore More &gt;&gt;
+          </button>
         </div>
       </div>
 
@@ -48,7 +52,9 @@ const BannerPoint = () => {
               </select>
             </div>
 
-            <button className="button-sumbit" type="submit" value="Submit" />
+            <button className="button-sumbit" type="submit" value="Submit">
+              Search
+            </button>
           </form>
         </div>
       </div>
