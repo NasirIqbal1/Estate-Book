@@ -14,7 +14,7 @@ const BannerPoint = () => {
             tempor incididunt ut labore et dolore magna aliqua.
           </p>
 
-          <button className="button-sumbit" type="submit" value="Submit">
+          <button className="button-Banner" type="submit" value="Submit">
             Explore More &gt;&gt;
           </button>
         </div>

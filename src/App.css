@@ -7,13 +7,14 @@
 }
 
 nav {
-  background-color: rgb(245, 243, 243);
+  background-color: white;
 }
 
 .Nav-items {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 80px;
 }
 
 .Nav-items ul li {
@@ -39,10 +40,12 @@ li a.active {
 
 .Logo {
   /* float: left; */
-  width: 150px;
+  width: 120px;
+  height: 120px;
   /* border-radius: 50%; */
   /* position: relative; */
   z-index: 1;
+  margin-top: 60px;
 }
 
 .button {
@@ -77,17 +80,17 @@ li a.active {
 }
 
 .Banner {
-  min-height: 80vh;
-  background: url("/public/ezgif-3-f14bc43078\ 1.jpg") no-repeat center center;
+  min-height: 100vh;
+  background: url("/src/Images/Banner\ Image.png") no-repeat center center;
   background-size: cover;
-  margin-top: -30px;
+  /* margin-top: -40px; */
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border-radius: 20px;
 }
 
 .text-block {
-  text-align: left;
   color: white;
 }
 
@@ -115,6 +118,7 @@ select {
 
 .button-sumbit {
   width: 290px;
+
   padding: 12px 10px;
   align-items: center;
   border: 1px solid white;
@@ -122,6 +126,19 @@ select {
   border-radius: 15px;
   cursor: pointer;
   margin: 10px auto;
+  font-size: 1rem;
+  color: white;
+}
+.button-Banner {
+  width: 250px;
+
+  padding: 12px 10px;
+  align-items: center;
+  border: 1px solid white;
+  background-color: #f2b438;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 35px auto;
   font-size: 1rem;
   color: white;
 }
@@ -148,6 +165,10 @@ label {
   background-color: #fff5e0;
 }
 
+.MidPage-Block {
+  height: 500px;
+}
+
 .col-6 img {
   text-align: center;
   display: block;
@@ -161,15 +182,205 @@ label {
   margin: 10px;
 }
 
-.container h1 {
+.container p {
   padding: 30px 0;
+}
+
+.text-area {
+  width: 570px;
+  height: 420px;
+  margin: 50px;
+  border: 1px solid white;
+}
+.text-area p {
+  padding: 30px 0;
+}
+
+.Office-textarea {
+  /* min-height: 80vh; */
+  padding: 50px;
+
+  background-color: #fff5e0;
+  background: #fff5e0 url("/src/Images/Group\ 9.png") no-repeat center center;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.Office-textarea h1 {
+  text-align: center;
+}
+
+.office-paragraph {
+  width: 70%;
+  height: 120px;
+  margin: 30px auto;
+  font-size: 16px;
+  text-align: center;
+
+  background: #fff5e031 url("/src/Images/Group\ 12.png") no-repeat center center;
+}
+
+.List-area ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+.custom-list li {
+  position: relative;
+  padding-left: 30px;
+}
+.custom-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  background: url("/src/Images/Rectangle\ 21.png") no-repeat center center;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+}
+
+.List-area li a {
+  text-decoration: none;
+  color: #342f26;
+  font-weight: bold;
+}
+
+.Map-Image {
+  width: 100%;
+  height: 450px;
+  background: url("/src/Images/Screenshot\ 2022-12-08\ at\ 1.10\ 1.png")
+    no-repeat;
+  background-size: cover;
+}
+
+.Box-area {
+  width: 500px;
+  height: 372px;
+  border: 1px solid white;
+  background-color: #000000aa;
+  border-radius: 20px;
+  position: absolute;
+  margin: 40px 40px;
+}
+
+.textbox-area {
+  margin: 20px 40px;
+  color: white;
+}
+.textbox-area p {
+  font-size: 14px;
+}
+
+.Heading1 {
+  padding: 40px 0;
+}
+
+.Footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+  border: 1px solid red;
+  background-color: #342f26;
+}
+
+.socialMedia-icon {
+  display: flex;
+
+  margin: 20px;
+
+  gap: 20px;
+}
+.socialMedia-icon a {
+  width: 40px;
+  height: 40px;
+  color: #333;
+  background-color: #cca353;
+  font-size: 30px;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.Box1 p {
+  font-size: 15px;
+  margin: 10px 20px;
+}
+.Box1 {
+  width: 500px;
+  height: 350px;
+  border: 2px solid white;
+  color: white;
+}
+
+.Box2 {
+  width: 400px;
+  height: 300px;
+  border: 2px solid white;
+
+  color: white;
+}
+
+.Box3 {
+  width: 400px;
+  height: 300px;
+  border: 2px solid white;
+  /* background-color: #c69c5e; */
+  color: white;
+}
+
+.Email-block {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.email-input {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  padding-right: 40px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.email-button {
+  position: absolute;
+  right: 15px;
+  top: 20px;
+  padding: 10px;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.Footerbox-1 {
+  width: 158px;
+  height: 158px;
+}
+
+.Footerbox-2 {
+  padding: 10px;
+  font-size: 15px;
+}
+.Footerbox-2 ul {
+  list-style: none;
+  padding: 20px 0;
+}
+
+.Footerbox-2 li a {
+  text-decoration: none;
+  color: white;
 }
 
 .row {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 10px;
-  /* margin: 10px 10px; */
 }
 
 [class*="col-"] {
