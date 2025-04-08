@@ -14,13 +14,13 @@ const NavBanner = () => {
               </a>
             </li>
             <li>
-              <a href="#news">News</a>
+              <a href="#services">Our Services</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact">Contact Us</a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href="#about">About Us</a>
             </li>
             <div className="button">
               <button class="btn1">Login</button>

@@ -6,7 +6,7 @@ const Map = () => {
     <div className="Map-Image">
       <div className="Box-area">
         <div className="textbox-area">
-          <h1 className="Heading1">Area Guide</h1>
+          <h1 className="Heading1 HeadingText-Mapp ">Area Guide</h1>
           <h3>Burj Khalifa, Dubai</h3>
           <p className="paragraph-area">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

@@ -2,7 +2,7 @@ import TableImage from "../Images/Egale2.png";
 
 const AboutUs = () => {
   return (
-    <div className="Table-Block">
+    <div id="about" className="Table-Block">
       <div className="row">
         <div className="col-6">
           <img src={TableImage} alt="logo" width={300} height={300} />
@@ -10,7 +10,7 @@ const AboutUs = () => {
 
         <div className="col-6 Text-container">
           <div className="container">
-            <h1>
+            <h1 className="HeadingText-bottom">
               About<span style={{ color: "#EDBF65" }}>Us</span>
             </h1>
             <p>
@@ -22,8 +22,11 @@ const AboutUs = () => {
               incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit
               amet, consectetur adipiscing elit.
             </p>
-            <button className="button-AboutUs" type="submit" value="Submit">
-              Explore More &gt;&gt;
+            <button className="button-Banner" type="submit" value="Submit">
+              <div className="innerbutton">
+                <div>Explore More</div>
+                <div> &gt;&gt;</div>
+              </div>
             </button>
           </div>
         </div>

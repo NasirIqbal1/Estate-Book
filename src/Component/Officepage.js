@@ -3,10 +3,10 @@ import OfficeImage from "../Images/Group 9.png";
 
 const Officepage = () => {
   return (
-    <div className="Background-area">
+    <div id="contact" className="Background-area">
       <div className="Office-textarea">
         <div className="office-paragraph">
-          <h1>
+          <h1 className="HeadingText-Office ">
             UAE <span style={{ color: "#EDBF65" }}>Offices</span>
           </h1>
           <p>

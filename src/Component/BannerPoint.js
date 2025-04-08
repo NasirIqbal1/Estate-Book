@@ -15,7 +15,10 @@ const BannerPoint = () => {
           </p>
 
           <button className="button-Banner" type="submit" value="Submit">
-            Explore More &gt;&gt;
+            <div className="innerbutton">
+              <div>Explore More</div>
+              <div> &gt;&gt;</div>
+            </div>
           </button>
         </div>
       </div>
@@ -23,33 +26,40 @@ const BannerPoint = () => {
       <div className="Form-Path">
         <div className="Form-Inner">
           <form action="/action_page.php">
-            <div>
-              <label htmlFor="fname">First Name</label>
-              <input
-                type="text"
-                id="fname"
-                name="firstname"
-                placeholder="Your name.."
-              />
-            </div>
+            <legend>Find your virtual office</legend>
 
-            <div>
-              <label htmlFor="lname">Last Name</label>
-              <input
-                type="text"
-                id="lname"
-                name="lastname"
-                placeholder="Your last name.."
-              />
-            </div>
+            <div className="BlocksForm-area">
+              <div>
+                <select id="country" name="country">
+                  <option value="australia">Type</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+              </div>
 
-            <div>
-              <label htmlFor="country">Country</label>
-              <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-              </select>
+              <div>
+                <select id="country" name="country">
+                  <option value="NewYork">City</option>
+                  <option value="Tranto">Canada</option>
+                  <option value="Sharja">Sharja</option>
+                </select>
+              </div>
+
+              <div>
+                <select id="country" name="country">
+                  <option value="australia">Area</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+              </div>
+
+              <div>
+                <select id="country" name="country">
+                  <option value="australia">Room</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+              </div>
             </div>
 
             <button className="button-sumbit" type="submit" value="Submit">

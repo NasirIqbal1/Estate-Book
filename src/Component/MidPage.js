@@ -3,15 +3,15 @@ import MidPge from "../Images/Group 7.png";
 
 const MidPage = () => {
   return (
-    <div className="MidPage-Block">
+    <div id="services" className="MidPage-Block">
       <div className="row">
         <div className="col-6  Text-container">
           <div className="text-area">
             <h3>
               <span style={{ color: "#EDBF65" }}>We offer</span>
             </h3>
-            <h1>
-              About<span style={{ color: "#EDBF65" }}>Us</span>
+            <h1 className="HeadingText-bottom ">
+              Virtual <span style={{ color: "#EDBF65" }}>Office</span>
             </h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -22,8 +22,11 @@ const MidPage = () => {
               incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit
               amet, consectetur adipiscing elit.
             </p>
-            <button className="button-AboutUs" type="submit" value="Submit">
-              Explore More &gt;&gt;
+            <button className="button-Banner" type="submit" value="Submit">
+              <div className="innerbutton">
+                <div>Explore More</div>
+                <div> &gt;&gt;</div>
+              </div>
             </button>
           </div>
         </div>
